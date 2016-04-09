@@ -16,9 +16,12 @@
     var picker;
     var obj = data;
     function nextImage(){
-      picker = obj.items[0].shirts[++i].imgPath;
-      var cancel = document.getElementById("switchImage");
-      cancel.src = picker;
+      ImageTitle = obj.items[0].shirts[++i].title;
+      Imagepicker = obj.items[0].shirts[i].imgPath;
+      var cancelImage = document.getElementById("switchImage");
+      var titleImage = document.getElementById("imagetitle");
+      titleImage.innerHTML = ImageTitle;
+      cancelImage.src = Imagepicker;
     }
     </script>
   </head>
@@ -34,7 +37,7 @@
 
     <div id="content">
       <div class="card">
-        <div class="cardHeading">Calvin Klein Mens Jeans</div><hr>
+        <div class="cardHeading" id= "imagetitle">Calvin Klein Mens Jeans</div><hr>
         <div class="image">
             <img src="img/ckjeans.jpeg" id = "switchImage" height="300" width="200"></img>
         </div>
