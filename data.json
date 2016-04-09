@@ -3,44 +3,44 @@ data = {"items":[
         {
           "title": "Costco Shirt",
           "size": "S",
-          "imgPath": "img/ckjeans.jpg",
+          "imgPath": "http://nbrcanadainc.com/images/poloshirt/poloshirt_13.jpg",
           "type": "shirt"
         },{
           "title": "DC Shirt",
           "size": "M",
-          "imgPath": "img/3417065_fpx.jpg",
+          "imgPath": "http://www.bellhelmets.com/media/catalog/product/cache/3/image/540x/602f0fa2c1f0d1ba5e241f914e856ff9/B/e/BellKnoxWesternShirt.png",
           "type": "shirt"
         },{
           "title": "LV Shirt",
           "size": "L",
-          "imgPath": "img/download.jpg",
+          "imgPath": "http://avasystemiconline.com/uploaded/large/1433853151dfghfd.jpg",
           "type": "shirt"
         },{
           "title": "BF Shirt",
           "size": "XL",
-          "imgPath": "img/download(3).jpg",
+          "imgPath": "http://g02.a.alicdn.com/kf/HTB1YOInKpXXXXaWXpXXq6xXFXXX5/-font-b-Shirts-b-font-Men-2012-Male-Long-Sleeve-font-b-Shirt-b-font.jpg",
           "type": "shirt"
         }
     ]},{"pants":[
         {
           "title": "Costco Pant",
           "size": "S",
-          "imgPath": "img/download(4).jpg",
+          "imgPath": "http://www.lifeofdad.com/wp-content/uploads/2015/01/pants.jpg",
           "type": "pant"
         },{
           "title": "DC Pant",
           "size": "M",
-          "imgPath": "img/download(5).jpg",
+          "imgPath": "http://d3ignmu53eme66.cloudfront.net/image.aspx/media/images/products/45507-DEK-flex-fire-hose-work-pants-front.jpg-1500x1500",
           "type": "pant"
         },{
           "title": "LV Pant",
           "size": "L",
-          "imgPath": "img/download(6).jpg",
+          "imgPath": "http://images.express.com/is/image/expressfashion/new_24_559_4963_022_01?cache=on&wid=640&fmt=jpeg&qlt=70,1&resmode=sharp2&op_usm=1,1,5,0&fit=fit,1",
           "type": "pant"
         },{
           "title": "BF Pant",
           "size": "XL",
-          "imgPath": "img/download(1).jpg",
+          "imgPath": "http://pics.ae.com/is/image/aeo/0119_3588_952_of?fit=crop&wid=576&hei=860&qlt=60,0",
           "type": "pant"
         }
     ]}
