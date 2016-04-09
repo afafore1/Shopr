@@ -55,6 +55,17 @@
 	color: #B71C1C;
 }
 
+#cancelButton{
+  padding:0;
+  border:none;
+  background:none;
+}
+
+#acceptButton{
+  padding:0;
+  border:none;
+  background:none;
+}
 .buttonS
 {
 	background-color: #E21A2C;/*rgba(178,178,178,0.2)*/
