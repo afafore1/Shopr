@@ -1,0 +1,47 @@
+data = {"items":[
+    {"shirts":[
+        {
+          "title": "Costco Shirt",
+          "size": "S",
+          "imgPath": "img/",
+          "type": "shirt"
+        },{
+          "title": "DC Shirt",
+          "size": "M",
+          "imgPath": "img/",
+          "type": "shirt"
+        },{
+          "title": "LV Shirt",
+          "size": "L",
+          "imgPath": "img/",
+          "type": "shirt"
+        },{
+          "title": "BF Shirt",
+          "size": "XL",
+          "imgPath": "img/",
+          "type": "shirt"
+        }
+    ]},{"pants":[
+        {
+          "title": "Costco Pant",
+          "size": "S",
+          "imgPath": "img/",
+          "type": "pant"
+        },{
+          "title": "DC Pant",
+          "size": "M",
+          "imgPath": "img/",
+          "type": "pant"
+        },{
+          "title": "LV Pant",
+          "size": "L",
+          "imgPath": "img/",
+          "type": "pant"
+        },{
+          "title": "BF Pant",
+          "size": "XL",
+          "imgPath": "img/",
+          "type": "pant"
+        }
+    ]}
+]}
