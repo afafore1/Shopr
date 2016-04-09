@@ -45,7 +45,5 @@ $("#clothes").on('change', function () {
         $(this).next().removeClass('rotate-left rotate-right').fadeIn(400);
     }
   });
-  var obj = data;
-  alert(obj.items[0].shirts[1].title);
     //data is the JSON string
 });

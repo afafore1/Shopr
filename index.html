@@ -11,6 +11,19 @@
     <link rel="stylesheet" href="css/index.css">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500,300,900italic,900,700italic,500italic,400italic,300italic,100italic,100' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script type="text/javascript">
+    var i = 0;
+    var picker;
+    var obj = data;
+    function nextImage(){
+      ImageTitle = obj.items[0].shirts[++i].title;
+      Imagepicker = obj.items[0].shirts[i].imgPath;
+      var cancelImage = document.getElementById("switchImage");
+      var titleImage = document.getElementById("imagetitle");
+      titleImage.innerHTML = ImageTitle;
+      cancelImage.src = Imagepicker;
+    }
+    </script>
   </head>
   <body>
 
@@ -24,14 +37,14 @@
 
     <div id="content">
       <div class="card">
-        <div class="cardHeading">Calvin Klein Mens Jeans</div><hr>
+        <div class="cardHeading" id= "imagetitle">Calvin Klein Mens Jeans</div><hr>
         <div class="image">
-            <img src="img/ckjeans.jpeg" height="300" width="200"></img>
+            <img src="img/ckjeans.jpeg" id = "switchImage" height="300" width="200"></img>
         </div>
         <div class="desc"></div>
         <div class="cardButtons">
-          <a href="#" class="pull-left"><img src="img/cancel.png" height="50" width="50"></img></a>
-          <a href="#" class="pull-right"><img src="img/heart.png" height="50" width="50"></img></a>
+          <button id="cancelButton"><img src="img/cancel.png" height= "50" width="50" name = "cancelButton" onclick="nextImage();"></button>
+          <button id= "acceptButton" class="pull-right"><img src="img/heart.png" height="50" width="50" onclick="nextImage()"></button>
         </div>
       </div>
 
