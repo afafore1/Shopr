@@ -15,13 +15,20 @@
     var i = 0;
     var picker;
     var obj = data;
-    function nextImage(){
+    function nextImage(element){
       ImageTitle = obj.items[0].shirts[++i].title;
       Imagepicker = obj.items[0].shirts[i].imgPath;
       var cancelImage = document.getElementById("switchImage");
       var titleImage = document.getElementById("imagetitle");
       titleImage.innerHTML = ImageTitle;
       cancelImage.src = Imagepicker;
+      var cancel = document.getElementById("cancelButton");
+      var accept = document.getElementById("acceptButton");
+      if(accept.addEventListener){
+        accept.addEventListener("click", function(){
+          alert("I'm clicked");
+        });
+      }
     }
     </script>
   </head>
@@ -42,9 +49,9 @@
             <img src="img/ckjeans.jpeg" id = "switchImage" height="300" width="200"></img>
         </div>
         <div class="desc"></div>
-        <div class="cardButtons">
-          <button id="cancelButton"><img src="img/cancel.png" height= "50" width="50" name = "cancelButton" onclick="nextImage();"></button>
-          <button id= "acceptButton" class="pull-right"><img src="img/heart.png" height="50" width="50" onclick="nextImage()"></button>
+        <div class="cardButtons" id = "changeButtons">
+          <button id="cancelButton"><img src="img/cancel.png" height= "50" width="50" name = "cancelButton" onclick="nextImage(this);"></button>
+          <button id= "acceptButton" class="pull-right"><img src="img/heart.png" height="50" width="50" onclick="nextImage(this)"></button>
         </div>
       </div>
 
